@@ -44,3 +44,29 @@ header{
         padding:8rem 5rem;
     }
 }
+#photos-section{
+    .card-wrapper{
+        padding: 0px;
+        .card{
+            border:none;
+            margin:10px;
+            box-shadow: 5px 2px 20px 5px #74210028;
+            transition: all 0.2s;
+            &:hover{
+                box-shadow: 5px 25px 30px 5px #74210028;
+
+            }
+        }
+    }
+}
+
+#contact {
+    .icons{
+        i{
+            background: $theme-color;
+            padding:10px;
+            border-radius:50%;
+            color:white;
+        }
+    }
+}
