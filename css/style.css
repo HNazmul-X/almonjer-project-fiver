@@ -1,0 +1,44 @@
+h1, p, h2, h3, h4, h5, h6, a, li, button, article {
+  font-family: poppins;
+}
+
+.cl-theme {
+  color: #fb5607;
+}
+
+button {
+  border: none;
+  background: #fb5607;
+  color: white;
+  padding: 10px 30px;
+  display: inherit;
+  border-radius: 10px;
+}
+
+button:active {
+  background: #f48c06;
+}
+
+header {
+  background: url("../images/bg-1.svg") left bottom no-repeat;
+  background-size: cover;
+}
+
+header nav .navbar-brand {
+  color: #fb5607;
+}
+
+header nav .nav-link {
+  border-radius: 5px;
+  color: #fb5607;
+}
+
+header nav .nav-link:hover {
+  background: #fb5607;
+  color: white;
+}
+
+header .header-desc {
+  padding: 8rem 5rem;
+}
+/*# sourceMappingURL=style.css.map */

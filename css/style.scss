@@ -1,0 +1,46 @@
+$theme-color:#fb5607;
+$theme-color-light:#f48c06;
+
+
+h1,p,h2,h3,h4,h5,h6,a,li,button,article{
+    font-family: poppins;
+}
+.cl-theme{
+    color:$theme-color;
+}
+button{
+    border:none;
+    background: $theme-color;
+    color:white;
+    padding:10px 30px;
+    display: inherit;
+    border-radius: 10px;
+    &:active{
+        background: $theme-color-light;
+    }
+}
+
+header{
+    background: url("../images/bg-1.svg") left bottom no-repeat ;
+    background-size: cover;
+    nav {
+        .navbar-brand {
+
+            color: $theme-color;
+
+        }
+
+        .nav-link {
+            border-radius: 5px;
+            color: $theme-color;
+
+            &:hover {
+                background: $theme-color;
+                color: white;
+            }
+        }
+    }
+    .header-desc{
+        padding:8rem 5rem;
+    }
+}
